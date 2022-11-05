@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto new Date()</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" sizes="512x512" type="image/x-icon">
+        <!-- css -->
+        <link rel="stylesheet" href="css/folhaEstilo.css" type="text/css">
+        <link rel="stylesheet" href="css/responsividade.css" type="text/css">
+        <!-- JavaScript -->
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <main id="center">
+            <div class="container flex">
+                <div id="tempo" class="ordem2">
+                    <div id="cronometro">
+                        <time id="visor-cronometro" class="padrao">00:00:00</time>
+                        <div id="container-btns">
+                            <button type="button" class="btn-cronometro-iniciar">Iniciar</button>
+                            <button type="button" class="btn-cronometro-parar">Parar</button>
+                            <button type="button" class="btn-cronometro-zerar">Zerar</button>
+                        </div>
+                    </div> <!-- cronometro -->
+
+                    <div id="clock">
+                        <time id="relogio"></time>
+                        <time id="data-completa"></time>
+                        <time id="data-simplificada"></time>
+                        <time id="complimetacao"></time>
+                    </div>
+                </div> <!-- tempo -->
+                <img src="img/img-relogio.svg" alt="Imagem ilustrativa de um relógio" class="img ordem1">
+            </div>
+        </main>
+    </body>
+</html>
